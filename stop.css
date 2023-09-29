@@ -1,0 +1,53 @@
+body{
+
+    background-image: url('stop.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.digit{
+    font-size: 150px;
+    font-weight: bolder;
+    color: rgb(147, 179, 154);
+    
+}
+.text{
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(9, 225, 42);
+}
+#btn-container{
+text-align: center;
+
+margin-top: 40px;
+}
+.btn{
+    padding: 7px 23px;
+    font-size: 30px;
+    border-radius: 300px;
+    margin: 0px 10px;
+    border: none;
+ 
+    color:white;
+    cursor: pointer;
+    
+
+}
+#Start{
+   background-color: rgb(43, 28, 28);
+}
+#stop{
+    background-color: rgb(38, 75, 63);
+}
+#Reset{
+    background-color: rgb(28, 58, 114);
+}
